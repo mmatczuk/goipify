@@ -1,8 +1,8 @@
 package ipify
 
 import (
-	"net/http"
 	"net"
+	"net/http"
 )
 
 func Ipifi() http.Handler {

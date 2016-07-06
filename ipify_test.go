@@ -1,11 +1,11 @@
 package ipify
 
 import (
-	"testing"
-	"net/http/httptest"
-	"net/http"
 	"io/ioutil"
+	"net/http"
+	"net/http/httptest"
 	"src/github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestIpifi(t *testing.T) {
